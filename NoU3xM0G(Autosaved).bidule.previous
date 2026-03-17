@@ -3,7 +3,7 @@
 	<MediaPool>
 	</MediaPool>
 	<BiduleGroup id="UID_1667295264" displayName="" zoom="1" processingMode="process" version="1.0">
-		<Geometry x="-8" y="-8" w="2768" h="1128"/>
+		<Geometry x="1711" y="0" w="1738" h="1399"/>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -12,7 +12,7 @@
 		<Bidule id="UID_1667295265" type="AudioDuplex_1" displayName="OCTA-CAPTURE(duplex)" processingMode="process">
 			<Geometry x="-424" y="-273.5" w="0" h="0"/>
 			<Geometry x="-437" y="299.5" w="0" h="0"/>
-			<ChannelConfig numSampleIn="16" numSampleOut="16" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
+			<ChannelConfig numSampleIn="10" numSampleOut="12" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 			<Gui state="normal" hidden="true" generic="true">
 				<Geometry x="-1" y="-1" w="-0" h="0"/>
 			</Gui>
@@ -79,7 +79,7 @@
 				<Parameter id="0" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.803951</Parameter>
 				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 				<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
-				<Parameter id="3" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">0.485418</Parameter>
+				<Parameter id="3" userMin="0" userMax="3.16228" lockedForRandom="false" mutationFactor="0.1">2.227533</Parameter>
 				<Parameter id="4" userMin="0" userMax="1.5708" lockedForRandom="false" mutationFactor="0.1">0.692635</Parameter>
 				<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 				<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
@@ -272,7 +272,7 @@
 			<VirtualParameter id="45" source="UID_1671533650" param="31" displayName="8 Drms" GUI="verticalslider"/>
 			<VirtualParameter id="46" source="UID_1671533650" param="32" displayName="M Vol" GUI="verticalslider"/>
 		</BiduleGroup>
-		<Bidule id="UID_1676884495" type="com.plogue.AudioValueDisplay.Terminal" displayName="0.0" processingMode="process">
+		<Bidule id="UID_1676884495" type="com.plogue.AudioValueDisplay.Terminal" displayName="0.000011" processingMode="process">
 			<Geometry x="-662" y="497.5" w="0" h="0"/>
 			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -459,8 +459,8 @@
 			<Parameter id="10129" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="32766" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 			<Parameter id="32767" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-			<CustomData name="VST3ComponentState">eJyruJV7zpHrkIFA60PBPQ3mArtKEw9yLwlcmJDpKLj9Io+hRVrKpK5dH151lSYffPu9bX7jqhtvV/lKBygte9LcvcDoBLvW6wDjiTtdtsia+ny3X/PmagvzrX1hT/esuV2SGXx+u8bF4gZJHvcFdu69G4SLr7kLy+g13RR24lt1/JZKic6/xk83xa6pT9tar3DkZQqXV7HHIReNj9EbYpuinh9um/nt2ffn01edyd26hvvR4ZWrnzx+Ln1OJdLMgYHhARCDgAycZoQwGNig+EHYWk9nJgaGhJhnPiAaASbbHXi80xbC/mAPAAB8Zv8=</CustomData>
-			<CustomData name="VST3ComponentStateCheckSum">-1207</CustomData>
+			<CustomData name="VST3ComponentState">eJyruJV7zpHrkIFA68PCh4x7Gi+s5eaOU+jlYvXm7trRm9Zx0FB5csiV1vDwNdLcefvN//CEHM0Lz73VIGSoKh/DMtXRLiCyfVbnGdVFb1ck7vqfmLpeTebCt61az1PvLvOeXbXPtXMe85kEC6avllktc2dstpv1oEDwzDyBogDba2oLkz/yTzm/bYPdxjV/mRX91IMDZjkLqTl13m96K3TFSt7szBbz/fb7Q1LzVqfGCsj7xarK298/tznSnIGaAABww1Bw</CustomData>
+			<CustomData name="VST3ComponentStateCheckSum">-1162</CustomData>
 			<CustomData name="VST3ComponentStateSize">256</CustomData>
 		</Bidule>
 		<Bidule id="UID_1743186615" type="{56535442-6946-3262-6961-732066782032}_1_2" displayName="BIAS FX 2 01 ins 02 outs_0" processingMode="process">
@@ -2557,6 +2557,34 @@
 			<CustomData name="VST3ComponentState">eJztW1tvo0YUdrYvVf5DJYtnYzEwMNA3m5ht2k0UyZu2UhxZxJ5N6GJgYfBuFOVv9OdWHQZ7uRhMfIFaFaNEwXPOnO+b4VyGwfk9IH90Op0f6e8Z/e3oM+e3Tgf8bQz1J/rx3dAyxM67zok04Z+X8263y125jjsm2Mcu1/25+8m0A9xjAtPzrtw5tqNuphp1PriEuIuh6ad7I4HleCH5gJdZ/ZXQXvcLfVUWoiZKKgSqjDSQaL72Cu19cGefo7HED3Faww3J4ZDnOWjO892/8Izkp/cYWsT02XpYzmMB3iz0feyQGx8HmFyYxNzUYeZN31xEoru8iLYN9fVazNlEeiXipWmHmGkUKLwWjdoOBJoCEpsCkqqB+vJxoGBzUHJzUEpzUKg5KLUSChwHSGtuTqC5NFGdJyAEwrHQGksW4A3Z4khIb0gWRUj5vvtMR45ItjJdMmCOK6m6trXEY+vxxiRPVTXu2lwwhtyYFkZCi2L3q0WeukPbnH3+ZM4wt43GbRivAAcNZTBAss6LiqDw8ELT+AEaarykGhcGkmU01NW8pUfbfTDtMSYRalBcZ8fYplUcl2R/Djvmgx1Lc9uKlUK8uZgGMciuBdtceNOFOw9tHJQN3WpgbWZG6P0oJZnRtZw5/lbmMXEr9NDdeCTbw2oiRbnzPyEingoRqZxIseS+LD/gL9OUC2/jEKmyTedBnph41/apVtSzuO296olrnQSLsorULIuyarUTix3dL5hR7/Mtd0qeveMUxP9txtyBR5sw80TahMlamzCPyeIkEubBD5ZtwmwT5iaRNmGy1ibMY7I4iYRZFGJtwjylhLkDj1rz5Q482nTJWpsuj8niJNJlkWfveG68sOZWZMoJbTsn8jJvObmXiUN7J9yDt5jEZ/VCb9U1Mwl+dP1n1j/hJtxaMMfBzLc8YrnOhswxF3jVWXK4nOhGM8cB045psF6bwgZkNLcIno8jjbHtEqbEg16iFqx779Z9tL2krpkWZmYmSWDnFayPLuUQn2xnmaSUjG8xy7v7rPB1w1zE6jpZgluHWMSOCKQUM6Naxi3jeNT6Orb2+j1I4lc6WVdP05lwV2xrlLzayQXlWi0us8WzpkEdeJfz1UjjT7F/7VoBfk9jMW/GWmuhoSIOlJHBIwhGPNShzKuyhnhjgICGRFnXVD0/mFXPjbDdvEdpJKFXIGOpOBb3JaCxJqoQQSgq0vb7sQUKNAclVkHJe5uWKkznDKc+3mfvVrB6E5f4zFqcsMm64mDhfaRlbOUhNzTl055fsDnPO8LuPsv2hltdlpUYI1VicutCtQZIASNd4g1ZBzwcjVReFQzI69JAMRRZlAZAyg+2LedzCYFavFkRJE1QRABFCYlAAjV6syIIEhAhApKqISTIoD5vVhiSRpdfVunUBK027+5DAUC6gKIq0yUUkaruDQUroTQZqXReZengjaEVedZekaWbD00E1hUmph1BFuAdFFu1BBB1aiFuoiJQt5bE/f26MoTQ/mm6Kmaayv9HjIcDVkOui7RSl2FUl2G1vq2BVh084ip4NKjRHxpD+wdPZage4C+gKjT3t1xZzERN1oAqIVmUJQUhCe2PVVusgspgPWDtq4K1L9MarEJJgwKSoKpIB2xiaotfUBXAfSTQOSA5+fr5/lhVMX2MPTm7uF8/OC6xHyQnNKCvRo+bVCf9/cHz1N/4DCk6CLoM3rOv6WVOZLnF1HIsMl2EBE8DQh8Ms6elVB4fLU2XFv6afLskFpLQwf4AsiIChfPX8+//y/DrrT668a0lNRgdSnXOzobPnhkE9OKHzk/FSv8CpwpLgw==</CustomData>
 			<CustomData name="VST3ComponentStateCheckSum">-110</CustomData>
 			<CustomData name="VST3ComponentStateSize">12718</CustomData>
+		</Bidule>
+		<Bidule id="UID_1772214330" type="{ABCDEF01-9182-FAEB-5761-4D7552684563}" displayName="RhythmEcho_0" processingMode="process">
+			<Geometry x="-123" y="-105" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
+			<Gui state="normal" hidden="false" generic="false">
+				<Geometry x="294" y="256" w="873" h="799"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3575610" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="564403871" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.384615</Parameter>
+			<Parameter id="576800901" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.487127</Parameter>
+			<Parameter id="792657031" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="824404411" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="901316567" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.498117</Parameter>
+			<Parameter id="962376260" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="1040127981" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="1222960090" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.083708</Parameter>
+			<Parameter id="1238509039" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="1328686604" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.214286</Parameter>
+			<Parameter id="1397469129" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.333333</Parameter>
+			<Parameter id="1652125811" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="1955982213" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="VST3ComponentState">eJyFkltPg0AQhan+DhPcdylbLoUIbWovRpMmTWP1eQqjbGR3G3ZL4N9bbWwoeJmnTeabc+ZM9nk6uL69MIxoXPHcLLFQTIqYUMsmJopEpky8xWTztLgJyHhkRuus1hmfJ5lcQQFcjaLVZD1ZmiyNSSL5dqmIWUK+x5jYlkf6zX6KQnImQMviQaRYnUjn4HZOFvUL6t+VXhHTLSTvDYLax6JuaFPq0/MBJu6BiRNO24YcqhnmUDfW9w5iHYyJLmZ9+ToBdf1wOBieT4g9x6Kb2G0ry73+e0OV/NNHoZhmJdP1CQrakK532LhZq1stIMVGtOCYzA49xx+6DvU/8X7nBxjf9biZzlcFK0HjDDQYvd5dvQOlDo9L4+pn6AM+yreK</CustomData>
+			<CustomData name="VST3ComponentStateCheckSum">584</CustomData>
+			<CustomData name="VST3ComponentStateSize">640</CustomData>
 		</Bidule>
 		<Link producerId="UID_1671533646" producerChannel="0" listenerId="UID_1667295265" listenerChannel="0"/>
 		<Link producerId="UID_1671533646" producerChannel="1" listenerId="UID_1667295265" listenerChannel="1"/>
